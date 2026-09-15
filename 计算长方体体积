@@ -1,0 +1,28 @@
+#include<stdio.h>
+
+int length,width,high,volum;
+
+int main()
+
+{
+
+    printf("请输入长方体的长：");
+
+    scanf("%d",&length);
+
+    printf("请输入长方体的宽：");
+
+    scanf("%d",&width);
+
+    printf("请输入长方体的高：");
+
+    scanf("%d",&high);
+
+    volum=length*width*high;
+
+    printf("长方体的体积是；%d",volum);
+
+    return 0;
+
+}
+}
