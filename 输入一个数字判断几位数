@@ -1,0 +1,15 @@
+#include"stdio.h"
+int i;
+int num;
+int main()
+{
+printf("请输入一个数字");
+scanf("%d",&num);
+while(num>0)
+   {
+     num=num/10;
+     i++;
+   }
+printf("您输入的数字为%d位",i);
+  return 0;
+}
